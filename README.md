@@ -1,7 +1,7 @@
 # Running the files here
 
 
-Added a C++ file (`demo1.cpp`), a Python script (`demo2.py`) and a Jupyter notebook (`demo3.ipynb`) demonstrating GHZ state construction for 30 qubits using single-GPU acceleration. 
+Added a C++ file (`demo1.cpp`), a Python script (`demo2.py`) and a Jupyter notebook (`demo3.ipynb`) demonstrating GHZ state construction for 30 qubits using single-GPU acceleration. The output is the prepared GHZ state sampled over a 1000 shots.
 
 For the C++ file and the Python script, you'll need the flag `--target nvidia` to access GPU acceleration. Dropping this flag would make the program run with the default CPU target, causing it to slow down significantly.
 
